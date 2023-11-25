@@ -110,21 +110,21 @@
   
   
   <!-- Footer Start -->
-	<main>
-		<main class="footer-container wow fadeIn" data-wow-delay="0.1s">
+	<main class="main-main-container wow fadeIn" data-wow-delay="0.1s">
+		<main class="footer-container wow fadeIn">
     <section class="first-section">
 					<a href="index.html" class="navbar-brand">
 						<h1 class="logo-footer-title"><i class="fa-solid fa-dove logo-icon"></i>Metamorphosed</h1>
 					</a>
 					<p class="footer-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, quae.</p>
-					<p class="footer-phone-number">(555) 555-1234</p>
-					<p class="footer-email">example@gmail.ac.id</p>
+					<p class="footer-phone-number">+(555) 555-1234</p>
+					<p class="footer-email"><i class="fa-solid fa-envelope"></i>exampleUsername@gmail.com</p>
     </section>
     <section class="second-section">
         <p class="footer-newsletter-link">Newsletter </p>
 				<p class="social-desc">Stay Updated with us !</p>
 				<div class="newsletter-container">
-					<input type="text" placeholder="type here!" class="footer-email-container">
+					<input type="text" placeholder="Type Your Email Here!" class="footer-email-container">
 					<button class="footer-button-container"><i class="fa-solid fa-arrow-right" style="
 					color:white
 					"></i></button>
@@ -148,7 +148,10 @@
     </section>
   </main>
 	<div class="footer-license">
-		<p>--------------------------------------------</p>
+		<div class="footer-line">
+		</div>
+		<p class="license-text"><i>copyright ©2023 All right reserved Metamorphosed</i></p>
+		<p>Terms & Conditions / Privacy Policy</p>
 	</div>
 	</main>
   
