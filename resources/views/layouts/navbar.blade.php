@@ -69,7 +69,7 @@
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
                     <div class="profile-container">
-                        <img src="img/3x4.png" class="profile-picture">
+                        <img src="img/users.jpg" class="profile-picture">
                         <div class="hi-tooltip">
                           <p class="hi-text">Hi, Username!</p>
                         </div>

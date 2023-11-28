@@ -31,19 +31,38 @@ p {
 }
 
 .img-wallpaper {
-    background: url("../img/login-wallpaper.jpg"), center center no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     height: 100%;
     border: none;
     border-radius: 0rem;
+    position: relative;
+}
+
+.login-wallpaper {
+    width: 70%;
+}
+
+.license-container {
+    position: absolute;
+    bottom: 7rem;
+}
+
+.license-text-container {
+    color: #b6b6b6;
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-style: italic;
 }
 
 .login-container {
-    padding: 10rem 4rem 10rem 4rem;
-    width: 40rem;
+    padding: 10rem 10rem 10rem 10rem;
+    width: 50rem;
     background-color: white;
-    margin: auto;
     z-index: 1;
+    margin: auto;
 }
 
 .login-title {
@@ -55,7 +74,7 @@ p {
 .login-desc {
     text-align: center;
     color: rgb(182, 182, 182);
-    margin: 0.5rem 0rem 2rem 0rem;
+    margin: 0.5rem 0rem 3rem 0rem;
 }
 
 .login-input-container {
@@ -307,6 +326,7 @@ p {
     border-radius: 2rem;
     position: relative;
     margin-right: 0.5rem;
+    background-size: cover;
 }
 
 .profile-picture {

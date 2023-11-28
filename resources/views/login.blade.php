@@ -41,6 +41,10 @@
 
      <main class="body-main-container">
       <section class="img-wallpaper">
+        <img src="img/img-wallpaper3.svg" class="login-wallpaper">
+        <div class="license-container">
+          <p class="license-text-container">Copyright ©2023 All right reserved Metamorphosed</p>
+        </div>
       </section>
       <section class="login-container">
         <h1 class="login-title"><i class="fa-solid fa-dove"></i>Metamorphosed</h1>
