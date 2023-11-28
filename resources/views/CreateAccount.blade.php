@@ -41,37 +41,60 @@
 
      <main class="body-main-container">
       <section class="img-wallpaper">
-        <img src="img/login-illustrations.svg" class="login-wallpaper">
+        <img src="img/create-account-illustrations.svg" class="login-wallpaper">
         <div class="license-container">
           <p class="license-text-container">Copyright ©2023 All right reserved Metamorphosed</p>
+        </div>
+        <div class="back-to-login">
+          <div class="back-to-login-icon">
+            <a href="/login" class="back-to-login-icon-link"><i class="fa-solid fa-arrow-left"></i></a>
+            <div class="tooltip-back-to-login">
+              Back to Login Page ?
+            </div>
+          </div>
+          
         </div>
       </section>
       <section class="login-container">
         <h1 class="login-title"><i class="fa-solid fa-dove"></i>Metamorphosed</h1>
-        <p class="login-desc">Welcome back, and let's make the most of this journey together !</p>
+        <p class="login-desc">Let's start your journey, and take you away to better days !</p>
+        <section class="flex-input-container">
+          <div class="login-input-container">
+            <input type="text" placeholder="Firstname" class="input-container">
+            <div class="login-icon-tooltip">
+              <i class="fa-solid fa-user"></i>
+            </div>
+          </div>
+          <div class="login-input-container">
+            <input type="text" placeholder="Surname" class="input-container">
+            <div class="login-icon-tooltip">
+              <i class="fa-solid fa-user"></i>
+            </div>
+          </div>
+        </section>
         <div class="login-input-container">
-          <input type="text" placeholder="Your Username" class="input-container">
+          <input type="text" placeholder="Create Username" class="input-container">
           <div class="login-icon-tooltip">
             <i class="fa-solid fa-user"></i>
           </div>
         </div>
         <div class="login-input-container">
-          <input type="text" placeholder="Password" class="input-container">
+          <input type="text" placeholder="Active Email" class="input-container">
+          <div class="login-icon-tooltip">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+        </div>
+        <div class="login-input-container">
+          <input type="text" placeholder="Create Password" class="input-container">
           <div class="login-icon-tooltip">
             <i class="fa-solid fa-eye"></i>
           </div>
         </div>
-        <section class="forgot-link-container">
-          <p><a class="forgot-link" href="">forgot password?</a></p>
-        </section>
         <div class="login-button-container">
           <button class="login-button">
-            <a href="/home">Welcome Back !</a>
+            <a href="/home">Let's Get Started !</a>
           </button>
         </div>
-        <p class="dont-have-acc"> 
-          dont have an account? <a href="/create-account" class="register-link">click here!</a>
-        </p>
       </section>
      </main>
       

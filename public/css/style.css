@@ -57,8 +57,14 @@ p {
     font-style: italic;
 }
 
+.flex-input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .login-container {
-    padding: 10rem 10rem 10rem 10rem;
+    padding: 5rem 10rem 5rem 10rem;
     width: 50rem;
     background-color: white;
     z-index: 1;
@@ -158,6 +164,43 @@ p {
     color: #f1c152;
     font-size: 0.8rem;
     font-weight: bold;
+}
+
+.back-to-login {
+    z-index: 100;
+    position: absolute;
+    left: 5rem;
+    top: 3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: black;
+}
+
+
+.back-to-login-icon {
+    position: relative;
+}
+
+.back-to-login-icon-link {
+    color: black;
+}
+
+.tooltip-back-to-login {
+    position: absolute;
+    top: 0.2rem;
+    left: 2rem;
+    font-size: 0.7rem;
+    min-width: 8.6rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 0.2rem;
+    transition: 0.15s;
+    opacity: 0;
+}
+
+.back-to-login-icon:hover .tooltip-back-to-login {
+    opacity: 1;
 }
 /*** login page end ***/
 

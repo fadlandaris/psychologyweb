@@ -21,6 +21,10 @@ Route::get('/login', function () {
     return view('login');
 });
 
+Route::get('/create-account', function () {
+    return view('CreateAccount');
+});
+
 Route::get('/home', function () {
     return view('home');
 });
