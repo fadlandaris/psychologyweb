@@ -49,7 +49,7 @@
           <div class="back-to-login-icon">
             <a href="/login" class="back-to-login-icon-link"><i class="fa-solid fa-arrow-left"></i></a>
             <div class="tooltip-back-to-login">
-              Back to Login Page ?
+              Back to Login Page
             </div>
           </div>
           
@@ -92,7 +92,7 @@
         </div>
         <div class="login-button-container">
           <button class="login-button">
-            <a href="/home">Let's Get Started !</a>
+            <a href="/home">Let's Get Started!</a>
           </button>
         </div>
       </section>

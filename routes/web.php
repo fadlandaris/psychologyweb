@@ -25,6 +25,10 @@ Route::get('/create-account', function () {
     return view('CreateAccount');
 });
 
+Route::get('/forgot-password', function () {
+    return view('ForgotPassword');
+});
+
 Route::get('/home', function () {
     return view('home');
 });
