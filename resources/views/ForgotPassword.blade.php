@@ -52,7 +52,6 @@
               Back to Login Page
             </div>
           </div>
-          
         </div>
       </section>
       <section class="login-container">
